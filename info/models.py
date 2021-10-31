@@ -15,11 +15,11 @@ class Information(models.Model):
     cv = models.FileField(upload_to='cv', blank=True, null=True)
 
     # Social Network
-    github = models.URLField(blank=True, null=True)
-    linkedin = models.URLField(blank=True, null=True)
-    facebook = models.URLField(blank=True, null=True)
-    twitter = models.URLField(blank=True, null=True)
-    instagram = models.URLField(blank=True, null=True)
+    # github = models.URLField(blank=True, null=True)
+    # linkedin = models.URLField(blank=True, null=True)
+    # facebook = models.URLField(blank=True, null=True)
+    # twitter = models.URLField(blank=True, null=True)
+    # instagram = models.URLField(blank=True, null=True)
 
     def __str__(self):
         return self.name_complete
