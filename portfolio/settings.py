@@ -19,7 +19,7 @@ GOOGLE_RECAPTCHA_SECRET_KEY = '6LdwiwcdAAAAAMZWu_2386Ncsi185-UjWsE6I1Qx'
 # DEBUG = config('DEBUG', default=False, cast=bool)
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['azamatikromov.herokuapp.com']
 
 CORS_ORIGIN_ALLOW_ALL = True # If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
 CORS_ALLOW_CREDENTIALS = True
