@@ -14,13 +14,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 's1au4muh07)f^3=+#s=y9iezrxczmimv^(bbe8-gc&=b16b6@*'
 
-GOOGLE_RECAPTCHA_SECRET_KEY = '6LdwiwcdAAAAAMZWu_2386Ncsi185-UjWsE6I1Qx'
+GOOGLE_RECAPTCHA_SECRET_KEY = '6LcP8AgdAAAAAPtRbox-JxNpWm0kA0oPboyNdb-s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = config('DEBUG', default=False, cast=bool)
 DEBUG = True
 
-ALLOWED_HOSTS = ['azamatikromov.herokuapp.com','127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['dark-warlock-33249.herokuapp.com','127.0.0.1', 'localhost']
 
 CORS_ORIGIN_ALLOW_ALL = True # If this is used then `CORS_ORIGIN_WHITELIST` will not have any effect
 CORS_ALLOW_CREDENTIALS = True
