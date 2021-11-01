@@ -60,6 +60,7 @@ def homePage(request):
         return JsonResponse({'success': False, 'errors': "Oops, you have to check the recaptcha !"})
 
     if request.method == 'GET':
+        template_name = 'homePage.html'
         form = MessageForm()
         competences = Competence.objects.all().order_by('id')
         education = Education.objects.all().order_by('-id')
