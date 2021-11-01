@@ -73,7 +73,7 @@ def homePage(request):
             'experiences': experiences,
             'projects': projects,
             'form': form,
-            'recaptcha_key': config("6LdwiwcdAAAAADq1nYSg4lvPviez2M_7M7jLfIm4", default="")
+            # 'recaptcha_key': config("6LdwiwcdAAAAADq1nYSg4lvPviez2M_7M7jLfIm4", default="")
         }
     return render(request, template_name, context)
 
